@@ -1,0 +1,30 @@
+{
+    "name": "laravelpackages/laravel-vendor",
+    "description": "Motor para todos os componentes",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "laravelpackages@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LaravelPackages\\Vendor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelPackages\\Vendor\\Providers\\VendorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
