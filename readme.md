@@ -1,6 +1,6 @@
-# CW Vendor Laravel
+# Vendor Laravel
 
-Um pacote laravel vendor para os sistemas
+Package Laravel Vendor
 
 ## License
 
